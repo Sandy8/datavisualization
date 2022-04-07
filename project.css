@@ -1,0 +1,52 @@
+html, body { margin: 0; padding: 0; }
+         header, section, footer{
+                position: absolute;
+            }
+            body{
+                width: 80%;
+                margin: 0 auto;
+                overflow: hidden;
+            }
+            header{
+                top: 0;
+                width: 100%;
+            }
+            h1{
+                position: absolute;
+                top: 200px;
+                left: 100px;
+                font-family: fantasy;
+                color: #20052e;
+                font-size: 4em;
+            }
+            ul{
+                list-style-type: none;
+                
+            }
+            li{
+                float: left;
+                padding: 0 2%;
+            }
+            ul li a{
+                text-decoration: none;
+            }
+            a {
+                font-size: 20px;
+                font-family: fantasy;
+                color: #20052e;
+                padding: 10px;
+            }
+            section{
+                top: 100px;
+            }
+            footer{
+                bottom: 15px;
+                height: 20px;
+                padding: 10px;
+                text-align: right;
+                width: 80%;
+                background-color: #fff;
+                font-family: fantasy;
+                color: #20052e;
+            }
+        
